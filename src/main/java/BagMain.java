@@ -16,7 +16,7 @@ class BagMain {
      */
     public static void enhanceBags(Bag[] bags, boolean double_enhance_handbags) {
         for (Bag b : bags) {
-            b.enhance();
+            b.enhance(); // polymorphism
             if (double_enhance_handbags) {
                 if (b instanceof HandBag) {
                     ((HandBag) b).enhance();

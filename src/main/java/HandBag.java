@@ -9,8 +9,7 @@
 public class HandBag extends Bag{
 
     /**
-     * Creates a new HandBag with the given color and
-     * capacity.
+     * Creates a new HandBag with the given color and capacity.
      *
      * @param color
      * @param capacity

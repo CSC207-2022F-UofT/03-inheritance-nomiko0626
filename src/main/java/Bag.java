@@ -162,7 +162,9 @@ public abstract class Bag {
      */
     public void increaseCapacity(int n) {
         this.capacity = this.capacity + n;
-
+        String[] new_contents = new String[this.capacity];
+        System.arraycopy(this.contents, 0, new_contents, 0, this.contents.length);
+        this.contents = new_contents;
     }
 
     /**
